@@ -15,3 +15,22 @@ btn_2.addEventListener('click', (event) => {
 })
 
 
+
+
+const baro = document.querySelector('#baro')
+baro.addEventListener('click', () => {
+        // document.querySelector('#shapes').style.opacity = 0.5
+    
+        let x = document.querySelector('.sub_menu')
+        x.style.opacity = 1.5
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+})
+// document.addEventListener('DOMContentLoaded', ()=>{
+//         document.querySelector('#baro').onclick = () =>{
+//                 alert('ok')
+//         }
+// })
